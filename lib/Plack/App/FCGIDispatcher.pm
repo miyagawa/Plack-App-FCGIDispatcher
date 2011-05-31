@@ -4,6 +4,7 @@ use warnings;
 use parent qw(Plack::Component);
 use Plack::Util::Accessor qw(host port socket timeout);
 
+use 5.008001;
 use FCGI::Client;
 use HTTP::Response;
 
@@ -146,8 +147,16 @@ Tokuhiro Matsuno
 
 Tatsuhiko Miyagawa
 
+=head1 COPYRIGHT
+
+Tatsuhiko Miyagawa 2009-
+
+=head1 LICENSE
+
+This module is licensed under the same terms as Perl itself.
+
 =head1 SEE ALSO
 
-L<FCGI::Client>
+L<Plack> L<FCGI::Client>
 
 =cut

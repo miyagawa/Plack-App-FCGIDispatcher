@@ -41,6 +41,12 @@ AUTHOR
 
     Tatsuhiko Miyagawa
 
+COPYRIGHT
+    Tatsuhiko Miyagawa 2009-
+
+LICENSE
+    This module is licensed under the same terms as Perl itself.
+
 SEE ALSO
-    FCGI::Client
+    Plack FCGI::Client
 
