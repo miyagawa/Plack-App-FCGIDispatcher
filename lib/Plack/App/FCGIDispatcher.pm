@@ -139,6 +139,10 @@ Specifies host and port where FastCGI daemon is listening. host defaults to C<12
 
 Specifies UNIX socket path where FastCGI daemon is listening.
 
+=item timeout
+
+Specified the timeout in seconds. Default to 60.
+
 =back
 
 =head1 AUTHOR
